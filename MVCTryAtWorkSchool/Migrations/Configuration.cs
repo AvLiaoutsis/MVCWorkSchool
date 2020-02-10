@@ -73,6 +73,8 @@
                     Description = "Lorem ipsum"},
                 new Assignment { Title = "7th Assignment",
                     Description = "Lorem ipsum"},
+                new Assignment { Title = "8th Assignment",
+                    Description = "Lorem ipsum"},
                 new Assignment { Title = "Final Assignment",
                     Description = "Lorem ipsum"}
             };
