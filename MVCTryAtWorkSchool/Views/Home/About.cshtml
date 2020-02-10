@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MVCTryAtWorkSchool.ViewModels.StudentByDate>
+
+@{
+    ViewBag.Title = "Student Body Statistics";
+}
+<h2>Student Body Statistics</h2>
+<table>
+    <tr>
+        <th>
+            Birth Date &nbsp;
+        </th>
+        <th>
+            Students
+        </th>
+    </tr>
+    
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @item.StudentCount
+            </td>
+        </tr>
+    }
+</table>
